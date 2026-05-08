@@ -24,6 +24,17 @@ After querying, the raw dataset had a significant amount of missing values, a to
 
 To address these issues and set a base for strong modeling, I carried out extensive data preprocessing and feature engineering to create a final, processed data set for analysis. 
 
+### Methodology
+
+- **Feature transformation**: Transformed the dependent variable from a continuous popularity ranking to a binary class (in the top 10% of most popular patterns or not), and manipulated all string and datetime features to make them more interpretable (including one-hot encoding of a dense 200+ item categorical feature).
+- **Feature engineering**: Condensed 213 features into 33 more information-dense ones through domain knowledge (e.g. new features captured a pattern's size inclusivity, technical complexity, shoulder construction technique, if any regionally specific techniques or motifs are used, etc).
+- **Missing data**: Used intelligent imputation techniques to fill thousands of missing values, rather than mass deletion of rows.
+- **Outlier deletion**: Identified and deleted rows with bad data through PCA and feature-specific distributions.
+- **Feature pruning**: Pruned highly correlated features to reduce multicollinearity.
+- **Downsampling**: Randomly downsampled the majority class (90%) to create balanced training and test datasets.
+- **Model comparison**: Compared 6 models (Logistic Regression, KNN, Random Forest, CatBoost, XGBoost, and Neural Networks) including scaling when applicable, hyperparameter tuning, and Monte Carlo cross-validation to assess test accuracy.
+- **Final modeling**: Trained final CatBoost model and examined its SHAP feature values to understand how different sweater pattern attributes affect popularity.
+
 ### Read the Full Report
 
 For the full report, methodology, and insights, check out my [full report](https://drive.google.com/file/d/1yo_yTRXUP--2opQeYCy6r0lCKf1eXgLp/view?usp=sharing).
