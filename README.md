@@ -1,6 +1,6 @@
 # The Anatomy of a Viral Sweater on Ravelry
  
-_This is a class project carried out as part of Georgia Tech's Masters in Analytics. For more information, check out the full [project page](https://www.datascienceportfol.io/christinegarcia/projects/0)._
+_This was a class project carried out as part of Georgia Tech's Masters in Analytics. For more information, check out the full [project page](https://www.datascienceportfol.io/christinegarcia/projects/0)._
 
 The number of available knitting patterns have exploded in recent years. On [Ravelry](https://www.ravelry.com/) (the main database of fiber arts patterns) alone, there are over 850,000 digital knitting patterns currently available. What types of patterns rise to the top of this chaos? Why do some go viral across Ravelry and KnitTok while others languish with few views? In this project, I analyzed data on 100,000 sweater patterns from Ravelry to better understand what makes a sweater more likely to go viral among knitters.
 
