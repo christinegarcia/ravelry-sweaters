@@ -10,9 +10,9 @@ Why sweaters? The most popular knitting patterns are usually split between hats,
 
 ### Problem Statement
 
-I analyzed data from 100,000 sweater patterns to understand why certain sweaters go viral among knitters and others languish on Ravelry for years. Sweaters have a wide variety of [construction techniques](https://blog.tincanknits.com/2021/07/29/sweater-construction-the-many-ways-to-knit-a-sweater/) (different ways to create the neck, shoulders, sleeves, and more) so it will be interesting to see if certain techniques or styles are more likely to gain attention.
+I analyzed data from 100,000 sweater patterns to understand why certain sweaters go viral among knitters and others languish on Ravelry for years. Sweaters have a wide variety of construction techniques (different ways to create the neck, shoulders, sleeves, and more) so it will be interesting to see if certain techniques or styles are more likely to gain attention.
 
-With a few exceptions, knitting designers are independent creators who aren’t part of a larger yarn or design company. Creating a new pattern requires a significant upfront cost (e.g. pattern testing, grading, tech editing, etc.), estimated at a minimum of 55 hours of work per pattern by one designer.[^2] It’s crucial for independent designers that they recoup their costs by selling enough patterns, but not every pattern is going to strike a chord with knitters. 
+With a few exceptions, knitting designers are independent creators who aren’t part of a larger yarn or design company. Creating a new pattern requires a significant upfront cost (e.g. pattern testing, grading, tech editing, etc.), estimated at a minimum of 55 hours of work per pattern.[^2] It’s crucial for independent designers that they recoup their costs by selling enough patterns, but not every pattern is going to strike a chord with knitters. 
 
 This analysis aimed to determine what the knitting community seeks out in today’s popular sweaters to help designers as they develop new sweater patterns, helping to guide them toward creating patterns that the knitting community will love and buy, though it will also be interesting for knitters like me who wonder why certain sweater patterns go so viral.
 
